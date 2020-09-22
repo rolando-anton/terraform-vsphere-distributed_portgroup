@@ -1,7 +1,7 @@
-output "vapp-name" {
-  value = vsphere_vapp_container.vapp.name
+output "portgroup-name" {
+  value = vsphere_distributed_port_group.portgroup-name
 }
 
-output "vapp-id" {
-  value = vsphere_vapp_container.vapp.id
+output "portgroup-vlan" {
+  value = vsphere_distributed_port_group.portgroup-vlan
 }
